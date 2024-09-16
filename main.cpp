@@ -23,7 +23,7 @@ class A {
 				data[i] = 20;
 		}
 
-		// Desctructor
+		// Destructor
 		~A() {
 			delete [] data;
 			data = nullptr;
